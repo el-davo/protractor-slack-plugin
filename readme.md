@@ -18,7 +18,7 @@ In the plugins section of your protractor config place the following
 
 ```
 plugins: [{
-    path: './index.js',
+    package: 'protractor-slack-plugin',
     failMessage: 'Oh noes {totalFailed} tests failed',
     token: '<my-token>',
     channel: 'general'

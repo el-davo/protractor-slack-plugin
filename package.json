@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Slack plugin for protractor",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-davo/protractor-slack-plugin.git"
+  },
   "scripts": {
     "pretest": "webdriver-manager update",
     "test": "protractor"
