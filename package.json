@@ -1,0 +1,19 @@
+{
+  "name": "protractor-slack-plugin",
+  "version": "0.0.1",
+  "description": "Slack plugin for protractor",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor"
+  },
+  "author": "el-davo",
+  "license": "MIT",
+  "devDependencies": {
+    "protractor": "^5.1.2",
+    "static-server": "^2.0.5"
+  },
+  "dependencies": {
+    "@slack/client": "^3.10.0"
+  }
+}
